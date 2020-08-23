@@ -363,7 +363,7 @@
 //===========================================================================
 // Creality Ender 3/3 Pro Options - Select 'Sanguino 1284p' from Tools > Board
 //===========================================================================
-//#define ENDER3
+#define ENDER3
 
 // If you are using our EZOut V1/V2 (connected to LCD header) filament sensor kit please follow the install guide
 // and then uncomment the #define EZOUT_ENABLE line below.
@@ -1029,7 +1029,7 @@
 //#define SLOWER_HOMING
 
 // Using a Creality Silent Board? Enable the below option to set the correct driver setting for those boards
-//#define TMC_CREALITY_BOARD
+#define TMC_CREALITY_BOARD
 
 // BOOT SCREEN OPTIONS -----------------------------
 
@@ -1080,7 +1080,7 @@
 // Mesh Bed Leveling Documentation: http://marlinfw.org/docs/gcode/G029-mbl.html If used with a 1284P board the bootscreen will be disabled to save space.
 // NOTE: This is not supported on the Wanhao i3 Plus due to the LCD limitations.
 // NOTE: If you want to automate the leveling process our EZABL kits do this for you. Check them out here: http://EZABL.TH3DStudio.com
-//#define MANUAL_MESH_LEVELING
+b#define MANUAL_MESH_LEVELING
 
 // POWER LOSS RECOVERY -----------------------------
 // Continue after Power-Loss feature will store the current state to the SD Card at the start of each layer
@@ -1094,8 +1094,8 @@
 // There are 2 new acceleration/jerk controls available in this firmware that can result is better print quality and
 // smoother movement. To try each out just enable them below.
 // Junction Deviation is NOT supported on the Wanhao i3 Plus at this time.
-//#define JUNCTION_DEVIATION_ON
-//#define S_CURVE_ACCELERATION_ON
+#define JUNCTION_DEVIATION_ON
+#define S_CURVE_ACCELERATION_ON
 
 //================================================================================================
 // Language - This is provided for convenience and is unsupported with included product support.
